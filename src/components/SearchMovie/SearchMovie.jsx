@@ -32,7 +32,7 @@ export const Search = () => {
     };
 
     result();
-  }, [query]);
+  }, [query, input]);
 
   const handleSubmit = e => {
     e.preventDefault();

@@ -32,7 +32,8 @@ export const Search = () => {
     };
 
     result();
-  }, [input, query]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [input]);
 
   const handleSubmit = e => {
     e.preventDefault();

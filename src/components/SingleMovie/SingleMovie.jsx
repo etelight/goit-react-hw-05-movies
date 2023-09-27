@@ -34,6 +34,7 @@ export const SingleMovie = () => {
     };
 
     getMovieDetails(movieId);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const movieGenres = genres.map(genre => genre.name).join(', ');
